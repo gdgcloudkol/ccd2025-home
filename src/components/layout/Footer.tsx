@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                 className="h-8 w-8 mr-2"
               />
               <div>
-                <div className="font-medium">Google Developer Groups</div>
+                <div className="font-medium text-[--black] dark:text-[--white]">Google Developer Groups</div>
                 <div className="text-xs text-gray-600 dark:text-gray-400">Cloud • Kolkata</div>
               </div>
             </div>

@@ -3,22 +3,22 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "GoogleSans-Bold";
-  src: url("../../public/fonts/GoogleSans-Bold.ttf") format("truetype");
+  font-family: 'GoogleSans-Bold';
+  src: url('../../public/fonts/GoogleSans-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "GoogleSans-Medium";
-  src: url("../../public/fonts/GoogleSans-Medium.ttf") format("truetype");
+  font-family: 'GoogleSans-Medium';
+  src: url('../../public/fonts/GoogleSans-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "GoogleSans-Regular";
-  src: url("../../public/fonts/GoogleSans-Regular.ttf") format("truetype");
+  font-family: 'GoogleSans-Regular';
+  src: url('../../public/fonts/GoogleSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,15 +26,40 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-family: "GoogleSans-Regular", sans-serif;
-  --font-family-bold: "GoogleSans-Bold", sans-serif;
-  --font-family-medium: "GoogleSans-Medium", sans-serif;
+  --font-family: 'GoogleSans-Regular', sans-serif;
+  --font-family-bold: 'GoogleSans-Bold', sans-serif;
+  --font-family-medium: 'GoogleSans-Medium', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --white: #fff;
+    --black: #000;
+    --marquee-backgroundBlue: #428eff;
+    --marquee-backgroundYellow: #ffbb01;
+    --gray20: #e5e7eb;
+    --gray: #676c72;
+    --gray60: #4b5563;
+    --blue50: #4285f4;
+    --red50: #ea4336;
+    --green50: #34a853;
+    --yellow50: #faab00;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --white: #fff;
+    --black: #000;
+    --marquee-backgroundBlue: #428eff;
+    --marquee-backgroundYellow: #ffbb01;
+    --gray20: #e5e7eb;
+    --gray: #676c72;
+    --gray60: #4b5563;
+    --blue50: #4285f4;
+    --red50: #ea4336;
+    --green50: #34a853;
+    --yellow50: #faab00;
   }
 }
 
