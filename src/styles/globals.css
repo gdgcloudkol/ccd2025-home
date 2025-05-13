@@ -43,3 +43,13 @@ body {
   background: var(--background);
   font-family: var(--font-family);
 }
+
+.bg-cfs-gradient {
+  background: linear-gradient(
+    103.63deg,
+    #ea4336 0.58%,
+    #4285f4 44.38%,
+    #34a853 84.92%,
+    #faab00 126.11%
+  );
+}

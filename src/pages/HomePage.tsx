@@ -1,3 +1,4 @@
+import CallForSpeakers from '@/components/CallForSpeakers';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -45,7 +46,7 @@ const HomePage: React.FC = () => {
         </div>
       </section>
 
-     
+     <CallForSpeakers/>
     </div>
   );
 };
