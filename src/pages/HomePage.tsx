@@ -1,4 +1,6 @@
 import CallForSpeakers from '@/components/CallForSpeakers';
+import HelloToCcd from '@/components/HelloToCCD';
+import SvgBand from '@/components/SvgBand';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -7,10 +9,10 @@ const HomePage: React.FC = () => {
     <div className="relative">
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20 pb-32 relative bg-white">
-      <div
-        className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-5"
-        style={{ backgroundImage: 'url("/map-bg.png")' }}
-      />
+        <div
+          className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-5"
+          style={{ backgroundImage: 'url("/map-bg.png")' }}
+        />
         <div className="container mx-auto z-10 relative">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-black">
             Cloud Community<br />
@@ -45,8 +47,10 @@ const HomePage: React.FC = () => {
           />
         </div>
       </section>
-
-     <CallForSpeakers/>
+      <SvgBand reverse={true} pauseOnHover={true} className="bg-[#428EFF]" />
+      <HelloToCcd />
+      <SvgBand reverse={false} pauseOnHover={true} className="bg-[#FFBB01]" />
+      <CallForSpeakers />
     </div>
   );
 };
