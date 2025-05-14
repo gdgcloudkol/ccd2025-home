@@ -9,21 +9,21 @@ const HomePage: React.FC = () => {
   return (
     <div className="relative">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-20 pb-32 relative dark:bg-[--black]">
+      <section className="min-h-screen xl:min-h-[110dvh] flex flex-col justify-center items-center text-center px-4 pt-20 pb-32 relative dark:bg-[--black]">
         <div
           className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-5"
           style={{ backgroundImage: 'url("/map-bg.png")' }}
         />
-        <div className="container mx-auto z-10 relative">
+        <div className="container mx-auto z-10 relative xl:-mt-10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-[--black] dark:text-[--white]">
             Cloud Community<br />
             <div className="flex items-center justify-center">
               <img
-                src="/GCP.png"
+                src="/images/elements/GCP.webp"
                 alt="Cloud"
-                className="h-16 w-auto  mx-2"
+                className="h-12 w-auto mr-6"
               />
-              Days <span className="text-[--red50] border-2 border-[--red50] rounded-full px-4 py-1 text-3xl md:text-4xl ml-2 mt-3">2025</span>
+              Days <span className="text-google-blue border-2 border-google-blue rounded-full px-6 py-2 text-3xl md:text-4xl ml-4 mt-3">2025</span>
             </div>
           </h1>
 
@@ -35,21 +35,22 @@ const HomePage: React.FC = () => {
             to="/register"
             className="bg-[--black] text-[--white] dark:bg-[--white] dark:text-[--black] px-8 py-3 rounded-full font-medium text-lg inline-flex items-center"
           >
-            <img src="/images/elements/gemini.svg" className='mr-4 dark:hidden block' alt={"gemini"} />
-            <img src="/images/elements/gemini_dark.svg" className='mr-4 hidden dark:block' alt={"gemini"} />
+            <img src="/images/elements/gemini.svg" className='mr-4 dark:invert block' alt={"gemini"} />
+            {/* <img src="/images/elements/gemini_dark.svg" className='mr-4 hidden dark:block' alt={"gemini"} /> */}
             Register Now
-            <img src="/images/elements/gemini.svg" className='ml-4 dark:hidden block' alt={"gemini"} />
-            <img src="/images/elements/gemini_dark.svg" className='ml-4 hidden dark:block' alt={"gemini"} />
+            <img src="/images/elements/gemini.svg" className='ml-4 dark:invert block' alt={"gemini"} />
+            {/* <img src="/images/elements/gemini_dark.svg" className='ml-4 hidden dark:block' alt={"gemini"} /> */}
 
           </Link>
         </div>
 
         {/* City Skyline Image */}
-        <div className="absolute bottom-0 left-0 right-0 mt-16 w-full">
+        <div className="absolute -bottom-10 left-0 right-0  w-full">
           <img
-            src="/home-front.png"
+            // src="/home-front.png"
+            src="/images/kolkata.svg"
             alt="Kolkata Skyline"
-            className="w-full h-auto mix-blend-multiply opacity-20"
+            className="h-full xl:w-11/12 mx-auto xl:h-auto invert dark:invert-0 opacity-80 dark:opacity-30"
           />
         </div>
       </section>
