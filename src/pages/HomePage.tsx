@@ -4,6 +4,7 @@ import SvgBand from '@/components/SvgBand';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CONTENT from '../../public/content/home.json';
+import AboutFrame from '@/components/AboutFrame';
 import Highlights from '@/components/Highlights';
 
 const HomePage: React.FC = () => {
@@ -69,7 +70,8 @@ const HomePage: React.FC = () => {
           />
         </div>
       </section>
-      <SvgBand reverse={true} pauseOnHover={true} className="bg-[--marquee-backgroundBlue]" />
+      <AboutFrame />
+      <SvgBand reverse={true} pauseOnHover={true} className="bg-[--marquee-backgroundBlue]" />      
       <HeroSection2 />
       <SvgBand reverse={false} pauseOnHover={true} className="bg-[--marquee-backgroundYellow]" />
       <div className="my-20">
