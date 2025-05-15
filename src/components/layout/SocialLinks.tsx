@@ -13,21 +13,21 @@ interface SocialLinksProps {
 
 const SocialLinks: React.FC<SocialLinksProps> = ({ links }) => {
   return (
-    <div className="flex flex-wrap justify-center gap-4 mt-6 mb-10 w-full">
+    <div className="w-full md:w-10/12 mx-auto grid grid-cols-2 lg:grid-cols-4 justify-center gap-4 mt-6 mb-10 px-4 lg:px-0">
       {links.map((link) => (
         <a
           key={link.platform}
           href={link.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="relative flex items-center rounded-full px-6 py-2 text-gray-700 dark:text-gray-200 hover:shadow-md transition-all text-lg min-w-[220px] justify-center gap-2"
+          className="relative flex items-center rounded-full px-4 sm:px-6 py-2 text-gray-700 dark:text-gray-200 hover:shadow-md transition-all text-base sm:text-lg min-w-[140px] sm:min-w-[220px] justify-center gap-2"
         >
           <div className="absolute inset-0 rounded-full p-[0.5px] bg-gradient-to-r from-google-red via-google-blue via-google-yellow to-google-green">
-            <div className="h-full w-full rounded-full bg-white dark:bg-gray-900"></div>
+            <div className="h-full w-full rounded-full bg-[--white] dark:bg-[--black]"></div>
           </div>
-          <div className="relative flex items-center gap-2 font-light text-gray-600 dark:text-gray-400">
-            <img src={link.icon} alt={link.platform} className="h-4 w-auto dark:invert" />
-              <span className="text-base">{link.username}</span>  
+          <div className="relative flex items-center gap-1 sm:gap-2 font-light text-gray-600 dark:text-gray-400">
+            <img src={link.icon} alt={link.platform} className="h-3 sm:h-4 w-auto dark:invert" />
+            <span className="text-sm sm:text-base">{link.username}</span>  
           </div>
         </a>
       ))}

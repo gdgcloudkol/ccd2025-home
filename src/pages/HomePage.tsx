@@ -11,10 +11,7 @@ const HomePage: React.FC = () => {
     <div className="relative">
       {/* Hero Section */}
       <section className="min-h-screen xl:min-h-[110dvh] flex flex-col justify-center items-center text-center px-4 pt-20 pb-32 relative dark:bg-[--black]">
-        <div
-          className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-5"
-          style={{ backgroundImage: 'url("/map-bg.png")' }}
-        />
+       
         <div className="container mx-auto z-10 relative xl:-mt-10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-[--black] dark:text-[--white]">
             Cloud Community
@@ -30,7 +27,7 @@ const HomePage: React.FC = () => {
           </h1>
 
           <p className="text-xl md:text-2xl mt-8 mb-12 text-[--blue50] dark:text-[--gray20]">
-            {CONTENT.date} - {CONTENT.venue}
+            {CONTENT.date} - <Link to={CONTENT.venueLink} target='_blank' className='cursor-pointer'>{CONTENT.venue}</Link>
           </p>
 
           <Link
