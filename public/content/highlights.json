@@ -15,22 +15,22 @@
   },
   "grid": [
     {
-      "src": "/images/highlights/grid_image_1.png",
+      "src": "/images/highlights/grid_image_1.webp",
       "alt": "Event highlight 1",
       "caption": "Image Caption 1"
     },
     {
-      "src": "/images/highlights/grid_image_2.png",
+      "src": "/images/highlights/grid_image_2.webp",
       "alt": "Event highlight 2",
       "caption": "Image Caption 2"
     },
     {
-      "src": "/images/highlights/grid_image_3.png",
+      "src": "/images/highlights/grid_image_3.webp",
       "alt": "Event highlight 3",
       "caption": "Image Caption 3"
     },
     {
-      "src": "/images/highlights/grid_image_4.png",
+      "src": "/images/highlights/grid_image_4.webp",
       "alt": "Event highlight 4",
       "caption": "Image Caption 4"
     }

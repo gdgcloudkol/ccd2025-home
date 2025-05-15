@@ -1,6 +1,6 @@
 import React from 'react';
-import highlightsDataJson from '../../public/content/highlights.json';
-import { HighlightsData } from '@/types';
+import highlightsDataJson from '@/../public/content/highlights.json';
+import type { HighlightsData } from '@/types';
 
 const highlightsData = highlightsDataJson as HighlightsData;
 
