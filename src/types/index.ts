@@ -37,3 +37,29 @@ export interface ThemeContextType {
   theme: 'light' | 'dark';
   toggleTheme: () => void;
 }
+
+export interface HighlightStat {
+  value: string;
+  label: string;
+}
+
+export interface HighlightVideo {
+  url: string;
+  title: string;
+  hashtag: string;
+}
+
+export interface HighlightGridItem {
+  src: string;
+  alt: string;
+  caption: string;
+}
+
+export interface HighlightsData {
+  title: string;
+  description: string;
+  year: string;
+  stats: HighlightStat[];
+  video: HighlightVideo;
+  grid: HighlightGridItem[];
+}

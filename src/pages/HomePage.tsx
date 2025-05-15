@@ -4,6 +4,7 @@ import SvgBand from '@/components/SvgBand';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CONTENT from '../../public/content/home.json';
+import Highlights from '@/components/Highlights';
 
 const HomePage: React.FC = () => {
   return (
@@ -16,14 +17,14 @@ const HomePage: React.FC = () => {
         />
         <div className="container mx-auto z-10 relative">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-[--black] dark:text-[--white]">
-            Cloud Community<br />
+            Cloud Community
+            <br />
             <div className="flex items-center justify-center">
-              <img
-                src="/GCP.png"
-                alt="Cloud"
-                className="h-16 w-auto  mx-2"
-              />
-              Days <span className="text-[--red50] border-2 border-[--red50] rounded-full px-4 py-1 text-3xl md:text-4xl ml-2 mt-3">2025</span>
+              <img src="/GCP.png" alt="Cloud" className="h-16 w-auto  mx-2" />
+              Days{' '}
+              <span className="text-[--red50] border-2 border-[--red50] rounded-full px-4 py-1 text-3xl md:text-4xl ml-2 mt-3">
+                2025
+              </span>
             </div>
           </h1>
 
@@ -35,12 +36,27 @@ const HomePage: React.FC = () => {
             to="/register"
             className="bg-[--black] text-[--white] dark:bg-[--white] dark:text-[--black] px-8 py-3 rounded-full font-medium text-lg inline-flex items-center"
           >
-            <img src="/images/elements/gemini.svg" className='mr-4 dark:hidden block' alt={"gemini"} />
-            <img src="/images/elements/gemini_dark.svg" className='mr-4 hidden dark:block' alt={"gemini"} />
+            <img
+              src="/images/elements/gemini.svg"
+              className="mr-4 dark:hidden block"
+              alt={'gemini'}
+            />
+            <img
+              src="/images/elements/gemini_dark.svg"
+              className="mr-4 hidden dark:block"
+              alt={'gemini'}
+            />
             Register Now
-            <img src="/images/elements/gemini.svg" className='ml-4 dark:hidden block' alt={"gemini"} />
-            <img src="/images/elements/gemini_dark.svg" className='ml-4 hidden dark:block' alt={"gemini"} />
-
+            <img
+              src="/images/elements/gemini.svg"
+              className="ml-4 dark:hidden block"
+              alt={'gemini'}
+            />
+            <img
+              src="/images/elements/gemini_dark.svg"
+              className="ml-4 hidden dark:block"
+              alt={'gemini'}
+            />
           </Link>
         </div>
 
@@ -53,12 +69,13 @@ const HomePage: React.FC = () => {
           />
         </div>
       </section>
-      <SvgBand reverse={true} pauseOnHover={true} className="bg-[--marquee-backgroundBlue]" />      
+      <SvgBand reverse={true} pauseOnHover={true} className="bg-[--marquee-backgroundBlue]" />
       <HeroSection2 />
       <SvgBand reverse={false} pauseOnHover={true} className="bg-[--marquee-backgroundYellow]" />
-      <div className='my-20'>
-      <CallForSpeakers />
+      <div className="my-20">
+        <CallForSpeakers />
       </div>
+      <Highlights />{' '}
     </div>
   );
 };
