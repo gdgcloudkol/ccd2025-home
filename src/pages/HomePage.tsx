@@ -4,6 +4,7 @@ import SvgBand from '@/components/SvgBand';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CONTENT from '../../public/content/home.json';
+import Highlights from '@/components/Highlights';
 
 const HomePage: React.FC = () => {
   return (
@@ -16,7 +17,8 @@ const HomePage: React.FC = () => {
         />
         <div className="container mx-auto z-10 relative xl:-mt-10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-[--black] dark:text-[--white]">
-            Cloud Community<br />
+            Cloud Community
+            <br />
             <div className="flex items-center justify-center">
               <img
                 src="/images/elements/GCP.webp"
@@ -54,12 +56,13 @@ const HomePage: React.FC = () => {
           />
         </div>
       </section>
-      <SvgBand reverse={true} pauseOnHover={true} className="bg-[--marquee-backgroundBlue]" />      
+      <SvgBand reverse={true} pauseOnHover={true} className="bg-[--marquee-backgroundBlue]" />
       <HeroSection2 />
       <SvgBand reverse={false} pauseOnHover={true} className="bg-[--marquee-backgroundYellow]" />
-      <div className='my-20'>
-      <CallForSpeakers />
+      <div className="my-20">
+        <CallForSpeakers />
       </div>
+      <Highlights />{' '}
     </div>
   );
 };
