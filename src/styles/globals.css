@@ -35,6 +35,8 @@
   :root {
     --white: #fff;
     --black: #000;
+    --background: #171717;
+    --foreground: #ffffff;
     --marquee-backgroundBlue: #428eff;
     --marquee-backgroundYellow: #ffbb01;
     --gray20: #e5e7eb;
@@ -49,6 +51,8 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --background: #ffffff;
+    --foreground: #171717;
     --white: #fff;
     --black: #000;
     --marquee-backgroundBlue: #428eff;

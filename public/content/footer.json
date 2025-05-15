@@ -1,0 +1,89 @@
+{
+  "socialLinks": [
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/gdgcloudkol",
+      "username": "@gdgcloudkol",
+      "icon": "/images/socials/instagram.svg"
+    },
+    {
+      "platform": "X",
+      "url": "https://twitter.com/gdgcloudkol",
+      "username": "@gdgcloudkol",
+      "icon": "/images/socials/x.svg"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/company/gdgcloudkol",
+      "username": "@gdgcloudkol",
+      "icon": "/images/socials/linkedin.svg"
+    },
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com/gdgcloudkol",
+      "username": "@gdgcloudkol",
+      "icon": "/images/socials/facebook.svg"
+    }
+  ],
+  "about": [
+    {
+      "name": "Google Developer Groups",
+      "link": "/about/gdg"
+    },
+    {
+      "name": "Women Techmakers",
+      "link": "/about/wtm"
+    },
+    {
+      "name": "Google on campus",
+      "link": "/about/goc"
+    },
+    {
+      "name": "GDG Cloud Kolkata",
+      "link": "/about/gdg-cloud"
+    }
+  ],
+  "resources": [
+    {
+      "name": "Sponsorship Brochure",
+      "link": "/resources/sponsorship"
+    },
+    {
+      "name": "Attendee Brochure",
+      "link": "/resources/attendee"
+    },
+    {
+      "name": "Call for Speakers",
+      "link": "/resources/cfs"
+    },
+    {
+      "name": "GCCD Kolkata Extended Events",
+      "link": "/resources/events"
+    },
+    {
+      "name": "Frequently Asked Questions",
+      "link": "/resources/faq"
+    }
+  ],
+  "legal": [
+    {
+      "name": "Code of Conduct",
+      "link": "/code-of-conduct"
+    },
+    {
+      "name": "Privacy Policy",
+      "link": "/privacy"
+    }
+  ],
+  "footerText": {
+    "heading": "Follow Us For More Updates",
+    "description": "Let's get connected so that we can reach out to each other via a simple notification. Stake out #GCCDkolkata2024 for the updates and news.",
+    "copyright": "GCCD kolkata @2025"
+  },
+  "contact": [
+    {
+      "name": "Contact Us",
+      "link": "/contact"
+    }
+  ]
+}
