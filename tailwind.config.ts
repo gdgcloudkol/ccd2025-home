@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        google:{
+          "blue":"#4285F4",
+          "red":"#EA4336",
+          "yellow":"#FAAB00",
+          "green":"#34A853",
+        }
       },
       fontFamily: {
         sans: ["var(--font-family)", "sans-serif"],
