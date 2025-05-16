@@ -4,7 +4,7 @@ import GridBackgroud from './ui/GridBackgroud';
 
 const AboutFrame = () => {
   return (
-    <section className='relative md:min-h-screen overflow-hidden z-10'>
+    <section className='relative md:min-h-screen overflow-hidden z-10 text-[--black] dark:text-[--white]'>
       <div className='md:px-32 px-4 py-16 max-w-6xl'>
         <span className='md:text-[27px] text-[21px]'>
           {CONTENT.cfsText}
