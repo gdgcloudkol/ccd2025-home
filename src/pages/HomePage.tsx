@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
           </p>
 
           <Link
-            to="/register"
+            to="https://www.commudle.com/communities/gdg-cloud-kolkata/events/cloud-community-days-kolkata-2025"
             className="bg-[--black] text-[--white] dark:bg-[--white] dark:text-[--black] px-8 py-3 rounded-full font-medium text-lg inline-flex items-center"
           >
             <img src="/images/elements/gemini.svg" className='mr-4 dark:invert block' alt={"gemini"} />
