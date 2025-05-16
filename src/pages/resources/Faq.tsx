@@ -57,14 +57,14 @@ const Faq: React.FC = () => {
             {faqData.map((category, index) => (
               <CardContainer 
                 key={index}
-                headerTitle={<span className="text-xl font-bold text-[--black] dark:text-[--white]">{category.title}</span>}
+                headerTitle={<span className="text-xl font-bold text-[--white]">{category.title}</span>}
                 maxWidth="max-w-4xl"
               >
                 <Accordion
                   items={category.items.map(faq => ({
                     id: faq.id,
                     title: faq.question,
-                    content: faq.answer
+                    content: <p dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   }))}
                   openItems={openAccordions}
                   onToggle={toggleAccordion}
