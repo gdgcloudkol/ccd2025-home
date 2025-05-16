@@ -107,7 +107,7 @@ export default function CallForSpeakers() {
                     {CONTENT.cfsText}
                   </p>
                   <Link
-                    to="/"
+                    to={CONTENT.cfsLink}
                     className="inline-flex items-center gap-2 bg-[--black] text-[--white] dark:bg-[--white] dark:text-[--black] px-6 py-3 rounded-full font-medium"
                   >
                     <img src="/images/elements/gemini.svg" className='mr-1 dark:hidden block w-4 h-4' alt={"gemini"} />

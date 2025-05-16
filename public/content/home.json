@@ -10,10 +10,29 @@
   ],
   "hero2Text": "We're offering you the opportunity to learn about Cloud Technology, Google Cloud Certifications, Machine Learning, Web Technologies, and App Development from industry experts at Google Cloud Community Day 2025. Our experts will discuss how Google Cloud Platform and Google Cloud Certifications can help you advance your career by increasing your knowledge in these areas.",
   "cfsText": "A community organized Cloud Conference with industry experts presenting on cutting-edge topics! Cloud Community Day is powered by our shared belief that when developers come together to exchange ideas, remarkable things can happen.",
-  "cfsStats": [
-    { "name": "Apples", "value": 36000 },
-    { "name": "Bananas", "value": 36000 },
-    { "name": "Mangoes", "value": 36000 }
+  "cfsLink": "https://go.gdgcloudkol.org/ccd25-cfs",
+  "aboutText": "Cloud Community Day is a community-driven event that brings together developers, cloud enthusiasts, and industry experts to share knowledge, insights, and experiences related to technology. Over the years we have been able to create a platform with -",
+  "aboutStats": [
+    {
+      "name": "Members",
+      "value": "10,000"
+    },
+    {
+      "name": "Volunteers",
+      "value": 100
+    },
+    {
+      "name": "Speakers",
+      "value": 500
+    },
+    {
+      "name": "Sponsors",
+      "value": 20
+    },
+    {
+      "name": "Partners",
+      "value": 100
+    }
   ],
   "pastSpeakers": [
     {

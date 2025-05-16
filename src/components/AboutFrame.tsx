@@ -1,4 +1,3 @@
-import React from 'react'
 import CONTENT from '../../public/content/home.json';
 import GridBackgroud from './ui/GridBackgroud';
 
@@ -6,12 +5,12 @@ const AboutFrame = () => {
   return (
     <section className='relative md:min-h-screen overflow-hidden z-10 text-[--black] dark:text-[--white]'>
       <div className='md:px-32 px-4 py-16 max-w-6xl'>
-        <span className='md:text-[27px] text-[21px]'>
-          {CONTENT.cfsText}
+        <span className='md:text-[27px] text-[21px] text-justify'>
+          {CONTENT.aboutText}
         </span>
 
         <div className="flex md:gap-16 gap-8 mt-8">
-          {CONTENT.cfsStats.map(item =>
+          {CONTENT.aboutStats.map(item =>
             <div className='flex flex-col' key={item.name}>
               <span className='md:text-4xl text-[27px] w-1/3'>{item.value.toLocaleString()}+</span>
               <span className='text-base'>{item.name}</span>

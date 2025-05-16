@@ -11,7 +11,7 @@ const Team: React.FC = () => {
       <div className="container mx-auto px-4 md:px-12 py-14 relative z-10">
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-start mb-12 relative">
-          <div className="max-w-xl">
+          <div className="max-w-3xl text-xl">
             <PageHeader>{teamData.title}</PageHeader>
             <ContentParagraph>{teamData.description}</ContentParagraph>
           </div>
@@ -49,18 +49,6 @@ const Team: React.FC = () => {
           </div>
         </div>
 
-        {/* Team Photo */}
-        <div className="relative mb-16">
-          <img
-            src="/images/team/2024Team.png"
-            alt="Cloud Community Day Team"
-            className="w-full h-auto max-h-[400px] object-cover border border-[--black] dark:border-[--white]"
-          />
-          <div className="absolute bottom-[-12px] left-[20px] bg-[--white] dark:bg-[--black] border border-[--black] dark:border-[--white] px-3 py-1">
-            <span className="text-sm text-[--black] dark:text-[--white]">CCD 2025 Team</span>
-          </div>
-        </div>
-
         {/* Team Sections */}
         {teamData.allPeople.map((category, index) => (
           <TeamSection
@@ -74,37 +62,62 @@ const Team: React.FC = () => {
               {category.people.map((person) => (
                 <TeamMember
                   key={person.id}
-                  name={person.title}
-                  position={person.content}
-                  role={
+                  person={person}
+                  designation={
                     category.title === 'Organizing Team'
                       ? 'Organiser'
                       : category.title === 'Design Team'
                         ? 'Designer'
-                        : category.title === 'Web Team'
-                          ? 'Developer'
-                          : 'Team Member'
+                        : category.title === 'PR & Outreach Team'
+                          ? 'Marketeer'
+                          : category.title === 'Photography Team'
+                            ? 'Photographer'
+                            : category.title === 'Social Media Team'
+                              ? 'Social'
+                              : category.title === 'Web Team'
+                                ? 'Developer'
+                                : 'Team Member'
                   }
                   cardColor={category.cardColor || 'bg-google-blue'}
-                  image={person.image}
-                  linkedin={person.linkedin}
-                  twitter={person.twitter}
-                  instagram={person.instagram}
-                  github={person.github}
-                  facebook={person.facebook}
+                  leadId={teamData.leadId}
                 />
               ))}
             </div>
           </TeamSection>
         ))}
 
+
         {/* Bottom Decoration */}
-        <div className="mt-16 flex justify-start">
+        <div className="my-16 flex justify-start">
           <img
             src="/images/elements/green_block_full.png"
             alt="Decoration"
             className="object-cover h-40 w-auto"
           />
+        </div>
+
+        {/* Team Photo */}
+        <div className="relative mb-16">
+          <img
+            src="/images/team/2024Team.JPG"
+            alt="Cloud Community Day Team"
+            className="w-full h-auto max-h-[400px] object-cover border border-[--black] dark:border-[--white]"
+          />
+          <div className="absolute bottom-[-12px] left-[20px] bg-[--white] dark:bg-[--black] border border-[--black] dark:border-[--white] px-3 py-1">
+            <span className="text-sm text-[--black] dark:text-[--white]">CCD 2024 Team</span>
+          </div>
+        </div>
+
+        {/* Team Photo */}
+        <div className="relative mb-16">
+          <img
+            src="/images/team/2023Team.png"
+            alt="Cloud Community Day Team"
+            className="w-full h-auto max-h-[400px] object-cover border border-[--black] dark:border-[--white]"
+          />
+          <div className="absolute bottom-[-12px] left-[20px] bg-[--white] dark:bg-[--black] border border-[--black] dark:border-[--white] px-3 py-1">
+            <span className="text-sm text-[--black] dark:text-[--white]">CCD 2023 Team</span>
+          </div>
         </div>
       </div>
     </div>

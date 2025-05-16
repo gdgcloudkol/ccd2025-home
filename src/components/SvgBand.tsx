@@ -8,7 +8,7 @@ const bandItems = [
   { type: 'separator', src: '/images/elements/starOuter.svg' },
   { type: 'text', content: '#Connect' },
   { type: 'separator', src: '/images/elements/smile.svg' },
-  { type: 'text', content: '#GCCD2025' },
+  { type: 'text', content: '#CCD2025' },
   { type: 'separator', src: '/images/elements/gemini.svg' },
   { type: 'text', content: '#Google' },
   { type: 'separator', src: '/images/elements/star.svg' },

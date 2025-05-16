@@ -22,7 +22,7 @@ const Highlights: React.FC = () => {
               <span className="inline-block border-2 border-blue-400 dark:border-blue-500 text-blue-500 dark:text-blue-400 rounded-full px-5 py-1 text-xl font-semibold mb-4 md:hidden">
                 {highlightsData.year}
               </span>
-              <p className="text-[--gray] dark:text-[--gray20] max-w-3xl text-left text-base font-normal">
+              <p className="text-[--gray] dark:text-[--gray20] max-w-3xl text-xl font-normal text-justify">
                 {highlightsData.description}
               </p>
             </div>
@@ -36,10 +36,10 @@ const Highlights: React.FC = () => {
           <div className="grid grid-cols-2 gap-x-12 gap-y-8 md:flex md:flex-row md:gap-12 md:justify-start">
             {highlightsData.stats.map((stat, idx) => (
               <div key={idx} className="flex flex-col items-start">
-                <span className="text-2xl font-normal text-[--black] dark:text-[--white]">
+                <span className="text-3xl font-normal text-[--black] dark:text-[--white]">
                   {stat.value}
                 </span>
-                <span className="text-[--gray] dark:text-[--gray20] text-xs font-extralight">
+                <span className="text-[--gray] dark:text-[--gray20] text-xl font-extralight">
                   {stat.label}
                 </span>
               </div>
