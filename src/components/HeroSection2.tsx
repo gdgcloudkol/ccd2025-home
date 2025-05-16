@@ -6,9 +6,9 @@ const HeroSection2 = () => {
     <div className="flex flex-col md:flex-row justify-between items-center w-full relative">
       <div className="w-full md:w-[60%] p-4 ml-auto">
         <div className="w-full md:pr-4">
-          <h2 className="text-2xl md:text-5xl font-bold mb-3 max-sm:w-32 text-[--black] dark:text-[--white] flex flex-wrap">
-            Hello to,
-            <TextLoop className="inline-block md:ml-2 text-[--red50]" interval={3} transition={{ duration: 0.5 }}>
+          <h2 className="text-2xl md:text-5xl font-bold mb-3 max-sm:w-32 text-[--black] dark:text-[--white] flex flex-col xl:flex-row xl:items-center">
+            <span>Hello to,</span>
+            <TextLoop className="inline-block xl:ml-2 text-[--red50]" interval={3} transition={{ duration: 0.5 }}>
               {CONTENT.hero2Marquee.map(phrase => {
                 return <span key={phrase}>{phrase}</span>;
               })}
@@ -19,7 +19,7 @@ const HeroSection2 = () => {
           </p>
         </div>
       </div>
-      <div className="hidden w-fit md:flex justify-end ">
+      <div className="hidden w-fit md:flex justify-end">
         <img
           src="/images/hero/hero2.png"
           alt="GDG Logo"

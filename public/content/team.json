@@ -1,0 +1,182 @@
+{
+  "title": "Meet the team",
+  "description": "The passionate organizers and volunteers behind Cloud Community Day 2025.",
+  "allPeople": [
+    {
+      "title": "Organizing Team",
+      "description": "The passionate organizers and volunteers behind Cloud Community Day 2025.",
+      "cardColor": "bg-google-blue",
+      "people": [
+        {
+          "id": 0,
+          "title": "Jyoti Mishra",
+          "content": "SDE IV @ Evertz Microsystems",
+          "linkedin": "https://www.linkedin.com/in/jyotim29/",
+          "twitter": "https://www.twitter.com/Jyoti_Mi",
+          "image": "https://www.github.com/jstjyoti.png"
+        },
+        {
+          "id": 1,
+          "title": "Md Nasirul Haque",
+          "content": "IT Analyst @ TCS",
+          "linkedin": "https://www.linkedin.com/in/mdnasirulhaque/",
+          "twitter": "https://twitter.com/mdnasirulhaque",
+          "instagram": "https://twitter.com/mdnasirulhaque",
+          "github": "https://twitter.com/mdnasirulhaque",
+          "facebook": "https://twitter.com/mdnasirulhaque",
+          "image": "https://www.github.com/mdnasirulhaque.png"
+        },
+        {
+          "id": 2,
+          "title": "Kazi Haque",
+          "content": "Co-Founder @ Callchimp",
+          "linkedin": "https://www.linkedin.com/in/haquekazi/",
+          "twitter": "https://twitter.com/imkazi23",
+          "image": "https://www.github.com/kazi92.png"
+        },
+        {
+          "id": 3,
+          "title": "Rishiraj Acharya",
+          "content": "ML Engineer @ Tensorlake.ai",
+          "linkedin": "https://www.linkedin.com/in/rishirajacharya/",
+          "twitter": "https://twitter.com/RishirajAcharya",
+          "image": "https://www.github.com/rishiraj.png"
+        },
+        {
+          "id": 4,
+          "title": "Snehangshu Bhattacharya",
+          "content": "Lead Engineer @ Callchimp",
+          "linkedin": "https://www.linkedin.com/in/snehangshub/",
+          "twitter": "https://twitter.com/snehangshu_",
+          "image": "https://www.github.com/f0rkb0mbZ.png"
+        }
+      ]
+    },
+    {
+      "title": "Design Team",
+      "description": "The beautiful designs created are created by",
+      "cardColor": "bg-google-yellow",
+      "people": [
+        {
+          "id": 5,
+          "title": "Anirban Saha",
+          "content": "Developer @ Strength",
+          "linkedin": "https://www.linkedin.com/in/anbsaha/",
+          "twitter": "https://twitter.com/AnbSaha",
+          "image": "https://github.com/Anirban-Saha.png"
+        },
+        {
+          "id": 6,
+          "title": "Ankush Das",
+          "content": "Cloud Co-Head @ GDSC Techno Main Salt Lake",
+          "linkedin": "https://www.linkedin.com/in/ankush-das-1374221ab",
+          "twitter": "https://x.com/AnkushDas178",
+          "image": "https://github.com/ankushdas178.png"
+        },
+        {
+          "id": 7,
+          "title": "Arindam Dutta",
+          "content": "Founder at Coinclap",
+          "linkedin": "https://www.linkedin.com/in/iarindamofficial/",
+          "twitter": "https://x.com/arindamoriginal",
+          "image": "https://github.com/iarindamofficial.png"
+        },
+        {
+          "id": 8,
+          "title": "Nimesh Kumar",
+          "content": "Student @Sister Nivedita University",
+          "linkedin": "https://www.linkedin.com/in/nimesh-kumar-9079ab225",
+          "twitter": "https://x.com/nimesh_kr_?t=IBzscabT7OxMEnuQdjoD9A&s=09",
+          "image": "https://github.com/nimeshkumar08.png"
+        },
+        {
+          "id": 9,
+          "title": "Randrita Sarkar",
+          "content": "Associate @ TCS",
+          "linkedin": "https://linkedin.com/in/randritas",
+          "twitter": "https://twitter.com/sarkar_randrita",
+          "image": "https://www.github.com/Randrita.png"
+        },
+        {
+          "id": 10,
+          "title": "Sarfaraz Ahmad",
+          "content": "Data Engineer @ Cognizant",
+          "linkedin": "https://www.linkedin.com/in/sarfaraz-ahmad-647898209",
+          "twitter": "https://x.com/_n_a_t_u_re_boy",
+          "image": "https://github.com/sarfaraz02.png"
+        }
+      ]
+    },
+    {
+      "title": "Web Team",
+      "description": "These amazing websites, constests and various other technical systems are by...",
+      "cardColor": "bg-google-green",
+      "people": [
+        {
+          "id": 23,
+          "title": "Alapan Das",
+          "content": "Junior Developer",
+          "linkedin": "https://www.linkedin.com/in/alapandas3",
+          "twitter": "https://x.com/AlapanDas4",
+          "image": "https://github.com/AlapanDas.png"
+        },
+        {
+          "id": 24,
+          "title": "Gourav Ghosal",
+          "content": "Frontend developer @ Callchimp",
+          "linkedin": "https://www.linkedin.com/in/gourav-ghosal",
+          "twitter": "https://x.com/gourav_221b",
+          "image": "https://github.com/gourav221b.png"
+        },
+        {
+          "id": 25,
+          "title": "Hemant Bajaj",
+          "content": "ASDE @Swiggy",
+          "linkedin": "https://www.linkedin.com/in/hemant-bajaj-/",
+          "twitter": "https://twitter.com/HemantBajaj_",
+          "image": "https://github.com/orko06.png"
+        },
+        {
+          "id": 26,
+          "title": "Maaz Ahmed",
+          "content": "Student @ TINT",
+          "linkedin": "https://www.linkedin.com/in/maaz-ahmed-699484199",
+          "twitter": "https://x.com/imox919",
+          "image": "https://pbs.twimg.com/profile_images/1691039252405002240/kzdd-j0A.jpg"
+        },
+        {
+          "id": 28,
+          "title": "Raja Majumdar",
+          "content": "Jobless @ Academy of Technology but ML Researcher @ CU",
+          "linkedin": "https://www.linkedin.com/in/raja-majumdar/",
+          "twitter": "https://twitter.com/r3yc0n1c",
+          "image": "https://github.com/r3yc0n1c.png"
+        },
+        {
+          "id": 29,
+          "title": "Rudramadhaba Mishra",
+          "content": "SDE @iServeU",
+          "linkedin": "https://www.linkedin.com/in/rudramadhaba/",
+          "twitter": "https://x.com/rudramadhabami1",
+          "image": "https://github.com/RUDRAMADHABA.png"
+        },
+        {
+          "id": 30,
+          "title": "Sayak Saha",
+          "content": "Frontend Engineer @ TCS",
+          "linkedin": "https://www.linkedin.com/in/sayaksaha10/",
+          "twitter": "https://twitter.com/10_sayak/",
+          "image": "https://github.com/sayakongit.png"
+        },
+        {
+          "id": 31,
+          "title": "Sitam Meur",
+          "content": "Studio Publisher @LightningAI, GSOC @RUXAILAB, AI/ML Lead @GDSC MSIT, Pre-final year student @MSIT",
+          "linkedin": "https://www.linkedin.com/in/sitammeur/",
+          "twitter": "https://twitter.com/sitammeur",
+          "image": "https://github.com/sitamgithub-MSIT.png"
+        }
+      ]
+    }
+  ]
+}
