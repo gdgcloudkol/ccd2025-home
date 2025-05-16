@@ -1,21 +1,72 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const NotFoundPage: React.FC = () => {
   return (
-    <div className="container mx-auto px-4 py-16 text-center">
-      <h1 className="text-6xl font-bold mb-6">404</h1>
-      <h2 className="text-3xl font-semibold mb-6">Page Not Found</h2>
-      <p className="text-xl mb-8">
-        The page you are looking for might have been removed, had its name changed, or is temporarily
-        unavailable.
-      </p>
-      <Link
-        to="/"
-        className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition-colors"
-      >
-        Go to Homepage
-      </Link>
+    <div className="min-h-[80vh] flex flex-col items-center justify-center px-4 py-16 relative overflow-hidden">
+      {/* Animated cloud elements */}
+      <motion.img 
+        src="/images/elements/blue-cloud.png" 
+        alt="Cloud" 
+        className="absolute top-20 left-10 h-16 w-auto opacity-20"
+        animate={{
+          x: [0, 20, 0],
+          y: [0, -10, 0],
+          rotate: [-12, -8, -12],
+        }}
+        transition={{
+          duration: 6,
+          repeat: Infinity,
+          ease: "easeInOut"
+        }}
+      />
+      <motion.img 
+        src="/images/elements/blue-cloud.png" 
+        alt="Cloud" 
+        className="absolute bottom-20 right-10 h-20 w-auto opacity-20"
+        animate={{
+          x: [0, -20, 0],
+          y: [0, 10, 0],
+          rotate: [12, 8, 12],
+        }}
+        transition={{
+          duration: 7,
+          repeat: Infinity,
+          ease: "easeInOut"
+        }}
+      />
+      
+      {/* Main content */}
+      <div className="text-center relative z-10">
+        <h1 className="text-8xl md:text-9xl font-extralight mb-4 text-[--black] dark:text-[--white]">
+          404
+        </h1>
+        <h2 className="text-3xl md:text-4xl font-light mb-6 text-[--black] dark:text-[--white]">
+          Something Exciting is Coming!
+        </h2>
+        <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-12">
+          While you're here, we're working on something amazing in the cloud! 
+          This page is just taking a quick detour before we launch our next big feature.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Link
+            to="/"
+            className="inline-flex items-center justify-center bg-google-blue hover:bg-blue-700 text-[--white] font-medium py-3 px-8 rounded-lg transition-colors duration-200"
+          >
+            Return Home
+          </Link>
+          <Link
+            to="/contact"
+            className="inline-flex items-center justify-center border border-google-blue text-google-blue hover:bg-google-blue hover:text-[--white] font-medium py-3 px-8 rounded-lg transition-colors duration-200"
+          >
+            Stay Updated
+          </Link>
+        </div>
+      </div>
+
+      {/* Gradient background */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white dark:from-[#1a1a1a] to-transparent" />
     </div>
   );
 };
