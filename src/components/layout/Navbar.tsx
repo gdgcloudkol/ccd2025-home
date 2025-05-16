@@ -49,10 +49,10 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center space-x-4">
             <ThemeToggle />
             <Link
-              to="/login"
+              to="https://www.commudle.com/communities/gdg-cloud-kolkata/events/cloud-community-days-kolkata-2025"
               className="bg-[--black] text-[--white] dark:bg-[--white] dark:text-[--black] p-3 px-6 rounded-full font-light flex items-center"
             >
-              Login Now
+              Apply for Tickets
               <span className="ml-2 bg-[--white] text-[--black] dark:bg-[--black] dark:text-[--white] rounded-full h-6 w-6 flex items-center justify-center text-xs">
                 <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-log-in-icon lucide-log-in"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" x2="3" y1="12" y2="12"/></svg>
               </span>
