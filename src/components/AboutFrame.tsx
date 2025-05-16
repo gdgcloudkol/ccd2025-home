@@ -13,7 +13,7 @@ const AboutFrame = () => {
         <div className="flex md:gap-16 gap-8 mt-8">
           {CONTENT.cfsStats.map(item =>
             <div className='flex flex-col' key={item.name}>
-              <span className='md:text-4xl text-[27px] w-1/3'>{item.value}+</span>
+              <span className='md:text-4xl text-[27px] w-1/3'>{item.value.toLocaleString()}+</span>
               <span className='text-base'>{item.name}</span>
             </div>
           )}
