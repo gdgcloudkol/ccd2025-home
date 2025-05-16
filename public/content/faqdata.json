@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "title": "General",
+      "items": [
+        {
+          "id": "general-1",
+          "question": "What is CCD 2025 Kolkata?",
+          "answer": "CCD 2025 Kolkata is short form of Cloud Community Days 2025 Kolkata which is among the largest Cloud developer conferences in Eastern India."
+        },
+        {
+          "id": "general-2",
+          "question": "What is CCD 2025 Kolkata?",
+          "answer": "CCD 2025 Kolkata is short form of Cloud Community Days 2025 Kolkata which is among the largest Cloud developer conferences in Eastern India."
+        },
+        {
+          "id": "general-3",
+          "question": "What is CCD 2025 Kolkata?",
+          "answer": "CCD 2025 Kolkata is short form of Cloud Community Days 2025 Kolkata which is among the largest Cloud developer conferences in Eastern India."
+        }
+      ]
+    },
+    {
+      "title": "Registration",
+      "items": [
+        {
+          "id": "registration-1",
+          "question": "What is CCD 2025 Kolkata?",
+          "answer": "CCD 2025 Kolkata is short form of Cloud Community Days 2025 Kolkata which is among the largest Cloud developer conferences in Eastern India."
+        },
+        {
+          "id": "registration-2",
+          "question": "What is CCD 2025 Kolkata?",
+          "answer": "CCD 2025 Kolkata is short form of Cloud Community Days 2025 Kolkata which is among the largest Cloud developer conferences in Eastern India."
+        },
+        {
+          "id": "registration-3",
+          "question": "What is CCD 2025 Kolkata?",
+          "answer": "CCD 2025 Kolkata is short form of Cloud Community Days 2025 Kolkata which is among the largest Cloud developer conferences in Eastern India."
+        }
+      ]
+    }
+  ]
+}
