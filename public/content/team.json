@@ -1,6 +1,6 @@
 {
   "title": "Meet the team",
-  "description": "The passion@e organizers and volunteers behind Cloud Community Day 2025.",
+  "description": "The passionate organizers and volunteers behind Cloud Community Day 2025.",
   "leadId": [
     0,
     5,
@@ -12,12 +12,12 @@
   "allPeople": [
     {
       "title": "Organizing Team",
-      "description": "The passion@e organizers and volunteers behind Cloud Community Day 2025.",
+      "description": "The passionate organizers and volunteers behind Cloud Community Day 2025.",
       "cardColor": "bg-google-red",
       "people": [
         {
           "id": 0,
-          "title": "Snehangshu Bh@tacharya",
+          "title": "Snehangshu Bhattacharya",
           "content": "Lead Engineer @ Callchimp",
           "linkedin": "https://www.linkedin.com/in/snehangshub/",
           "twitter": "https://twitter.com/snehangshu_",
@@ -59,7 +59,7 @@
     },
     {
       "title": "Design Team",
-      "description": "The beautiful designs cre@ed are cre@ed by",
+      "description": "The beautiful designs created are created by",
       "cardColor": "bg-google-yellow",
       "people": [
         {
@@ -73,7 +73,7 @@
         {
           "id": 6,
           "title": "Annu Kumari",
-          "content": "Student @ N@ional Institute of Advanced Manufacturing Technology,",
+          "content": "Student @ National Institute of Advanced Manufacturing Technology,",
           "linkedin": "https://www.linkedin.com/in/annu-kumari-540337237/",
           "twitter": "https://x.com/Annu66126617",
           "image": "https://github.com/lurisan.png"
@@ -82,7 +82,7 @@
           "id": 7,
           "title": "Kriti Kumari",
           "content": "Student @ Meghnad Saha Institute of Technology",
-          "linkedin": "https://www.linkedin.com/in/kritifromkolk@a/",
+          "linkedin": "https://www.linkedin.com/in/kritifromkolkata/",
           "twitter": "https://x.com/kritiverse",
           "image": "https://github.com/lurisan.png"
         },
@@ -301,7 +301,7 @@
         {
           "id": 31,
           "title": "Rudramadhaba Mishra",
-          "content": "SDE @iServeU",
+          "content": "SDE @ Amazon",
           "linkedin": "https://www.linkedin.com/in/rudramadhaba/",
           "twitter": "https://x.com/rudramadhabami1",
           "image": "https://github.com/RUDRAMADHABA.png"
